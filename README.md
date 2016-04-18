@@ -18,3 +18,5 @@ func selectedAddressAtIndex(province_index: Int, city_index: Int, area_index: In
         
   
 }
+
+http://www.jianshu.com/p/9b35485c5fb0
