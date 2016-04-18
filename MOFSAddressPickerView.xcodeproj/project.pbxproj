@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF08AD441C96E098006DDB8A /* city.xml in Resources */ = {isa = PBXBuildFile; fileRef = BF08AD431C96E098006DDB8A /* city.xml */; };
+		BF1FAED01C82EC7900BA83F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FAECF1C82EC7900BA83F7 /* AppDelegate.swift */; };
+		BF1FAED21C82EC7900BA83F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FAED11C82EC7900BA83F7 /* ViewController.swift */; };
+		BF1FAED51C82EC7900BA83F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1FAED31C82EC7900BA83F7 /* Main.storyboard */; };
+		BF1FAED71C82EC7900BA83F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1FAED61C82EC7900BA83F7 /* Assets.xcassets */; };
+		BF1FAEDA1C82EC7900BA83F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1FAED81C82EC7900BA83F7 /* LaunchScreen.storyboard */; };
+		BF1FAEE51C82EC7900BA83F7 /* MOFSAddressPickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FAEE41C82EC7900BA83F7 /* MOFSAddressPickerViewTests.swift */; };
+		BF1FAEF01C82EC7900BA83F7 /* MOFSAddressPickerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FAEEF1C82EC7900BA83F7 /* MOFSAddressPickerViewUITests.swift */; };
+		BF1FAF001C82ECFA00BA83F7 /* SwiftColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FAEFE1C82ECFA00BA83F7 /* SwiftColors.swift */; };
+		BF1FAF011C82ECFA00BA83F7 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FAEFF1C82ECFA00BA83F7 /* SwiftyJSON.swift */; };
+		BF1FAF031C82ED2F00BA83F7 /* MOFSAddressPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FAF021C82ED2F00BA83F7 /* MOFSAddressPickerView.swift */; };
+		BF1FAF051C82EE8D00BA83F7 /* Province&City&District.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF1FAF041C82EE8D00BA83F7 /* Province&City&District.plist */; };
+		BF1FAF071C82EEA200BA83F7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1FAF061C82EEA200BA83F7 /* Model.swift */; };
+		BFAF85E01C95A9240053CF56 /* area.xml in Resources */ = {isa = PBXBuildFile; fileRef = BFAF85DF1C95A9240053CF56 /* area.xml */; };
+		BFAF85E41C95B15B0053CF56 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAF85E31C95B15B0053CF56 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BFAF85E61C95B29D0053CF56 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAF85E51C95B29D0053CF56 /* libxml2.2.tbd */; };
+		BFAF85E91C95BBED0053CF56 /* ProvinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF85E81C95BBED0053CF56 /* ProvinceModel.swift */; };
+		BFAF85EB1C95BBFA0053CF56 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF85EA1C95BBFA0053CF56 /* CityModel.swift */; };
+		BFAF85ED1C95BC130053CF56 /* DistrictModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF85EC1C95BC130053CF56 /* DistrictModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF1FAEE11C82EC7900BA83F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1FAEC41C82EC7900BA83F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1FAECB1C82EC7900BA83F7;
+			remoteInfo = MOFSAddressPickerView;
+		};
+		BF1FAEEC1C82EC7900BA83F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1FAEC41C82EC7900BA83F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1FAECB1C82EC7900BA83F7;
+			remoteInfo = MOFSAddressPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF08AD431C96E098006DDB8A /* city.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = city.xml; sourceTree = "<group>"; };
+		BF1FAECC1C82EC7900BA83F7 /* MOFSAddressPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOFSAddressPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1FAECF1C82EC7900BA83F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF1FAED11C82EC7900BA83F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF1FAED41C82EC7900BA83F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF1FAED61C82EC7900BA83F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF1FAED91C82EC7900BA83F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF1FAEDB1C82EC7900BA83F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1FAEE01C82EC7900BA83F7 /* MOFSAddressPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOFSAddressPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1FAEE41C82EC7900BA83F7 /* MOFSAddressPickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOFSAddressPickerViewTests.swift; sourceTree = "<group>"; };
+		BF1FAEE61C82EC7900BA83F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1FAEEB1C82EC7900BA83F7 /* MOFSAddressPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOFSAddressPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1FAEEF1C82EC7900BA83F7 /* MOFSAddressPickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOFSAddressPickerViewUITests.swift; sourceTree = "<group>"; };
+		BF1FAEF11C82EC7900BA83F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1FAEFE1C82ECFA00BA83F7 /* SwiftColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftColors.swift; sourceTree = "<group>"; };
+		BF1FAEFF1C82ECFA00BA83F7 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BF1FAF021C82ED2F00BA83F7 /* MOFSAddressPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOFSAddressPickerView.swift; sourceTree = "<group>"; };
+		BF1FAF041C82EE8D00BA83F7 /* Province&City&District.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Province&City&District.plist"; sourceTree = "<group>"; };
+		BF1FAF061C82EEA200BA83F7 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BFAF85DF1C95A9240053CF56 /* area.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = area.xml; sourceTree = "<group>"; };
+		BFAF85E21C95B15B0053CF56 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		BFAF85E31C95B15B0053CF56 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		BFAF85E51C95B29D0053CF56 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		BFAF85E71C95B4EB0053CF56 /* mofs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mofs-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFAF85E81C95BBED0053CF56 /* ProvinceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvinceModel.swift; sourceTree = "<group>"; };
+		BFAF85EA1C95BBFA0053CF56 /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		BFAF85EC1C95BC130053CF56 /* DistrictModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistrictModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1FAEC91C82EC7900BA83F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAF85E61C95B29D0053CF56 /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1FAEDD1C82EC7900BA83F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1FAEE81C82EC7900BA83F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1FAEC31C82EC7900BA83F7 = {
+			isa = PBXGroup;
+			children = (
+				BFAF85E51C95B29D0053CF56 /* libxml2.2.tbd */,
+				BF1FAECE1C82EC7900BA83F7 /* MOFSAddressPickerView */,
+				BF1FAEE31C82EC7900BA83F7 /* MOFSAddressPickerViewTests */,
+				BF1FAEEE1C82EC7900BA83F7 /* MOFSAddressPickerViewUITests */,
+				BF1FAECD1C82EC7900BA83F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1FAECD1C82EC7900BA83F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1FAECC1C82EC7900BA83F7 /* MOFSAddressPickerView.app */,
+				BF1FAEE01C82EC7900BA83F7 /* MOFSAddressPickerViewTests.xctest */,
+				BF1FAEEB1C82EC7900BA83F7 /* MOFSAddressPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1FAECE1C82EC7900BA83F7 /* MOFSAddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				BF1FAECF1C82EC7900BA83F7 /* AppDelegate.swift */,
+				BF1FAED11C82EC7900BA83F7 /* ViewController.swift */,
+				BF1FAED31C82EC7900BA83F7 /* Main.storyboard */,
+				BF1FAEFD1C82ECFA00BA83F7 /* MOFSAddressPickerView */,
+				BF1FAED61C82EC7900BA83F7 /* Assets.xcassets */,
+				BF1FAED81C82EC7900BA83F7 /* LaunchScreen.storyboard */,
+				BF1FAEDB1C82EC7900BA83F7 /* Info.plist */,
+			);
+			path = MOFSAddressPickerView;
+			sourceTree = "<group>";
+		};
+		BF1FAEE31C82EC7900BA83F7 /* MOFSAddressPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF1FAEE41C82EC7900BA83F7 /* MOFSAddressPickerViewTests.swift */,
+				BF1FAEE61C82EC7900BA83F7 /* Info.plist */,
+			);
+			path = MOFSAddressPickerViewTests;
+			sourceTree = "<group>";
+		};
+		BF1FAEEE1C82EC7900BA83F7 /* MOFSAddressPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF1FAEEF1C82EC7900BA83F7 /* MOFSAddressPickerViewUITests.swift */,
+				BF1FAEF11C82EC7900BA83F7 /* Info.plist */,
+			);
+			path = MOFSAddressPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		BF1FAEFD1C82ECFA00BA83F7 /* MOFSAddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF85E11C95B15B0053CF56 /* GDataXMLNode */,
+				BF1FAF041C82EE8D00BA83F7 /* Province&City&District.plist */,
+				BF1FAEFE1C82ECFA00BA83F7 /* SwiftColors.swift */,
+				BF1FAEFF1C82ECFA00BA83F7 /* SwiftyJSON.swift */,
+				BF1FAF021C82ED2F00BA83F7 /* MOFSAddressPickerView.swift */,
+				BFAF85E71C95B4EB0053CF56 /* mofs-Bridging-Header.h */,
+				BF1FAF061C82EEA200BA83F7 /* Model.swift */,
+				BFAF85DF1C95A9240053CF56 /* area.xml */,
+				BF08AD431C96E098006DDB8A /* city.xml */,
+				BFAF85E81C95BBED0053CF56 /* ProvinceModel.swift */,
+				BFAF85EA1C95BBFA0053CF56 /* CityModel.swift */,
+				BFAF85EC1C95BC130053CF56 /* DistrictModel.swift */,
+			);
+			path = MOFSAddressPickerView;
+			sourceTree = "<group>";
+		};
+		BFAF85E11C95B15B0053CF56 /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF85E21C95B15B0053CF56 /* GDataXMLNode.h */,
+				BFAF85E31C95B15B0053CF56 /* GDataXMLNode.m */,
+			);
+			path = GDataXMLNode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1FAECB1C82EC7900BA83F7 /* MOFSAddressPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1FAEF41C82EC7900BA83F7 /* Build configuration list for PBXNativeTarget "MOFSAddressPickerView" */;
+			buildPhases = (
+				BF1FAEC81C82EC7900BA83F7 /* Sources */,
+				BF1FAEC91C82EC7900BA83F7 /* Frameworks */,
+				BF1FAECA1C82EC7900BA83F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOFSAddressPickerView;
+			productName = MOFSAddressPickerView;
+			productReference = BF1FAECC1C82EC7900BA83F7 /* MOFSAddressPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF1FAEDF1C82EC7900BA83F7 /* MOFSAddressPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1FAEF71C82EC7900BA83F7 /* Build configuration list for PBXNativeTarget "MOFSAddressPickerViewTests" */;
+			buildPhases = (
+				BF1FAEDC1C82EC7900BA83F7 /* Sources */,
+				BF1FAEDD1C82EC7900BA83F7 /* Frameworks */,
+				BF1FAEDE1C82EC7900BA83F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF1FAEE21C82EC7900BA83F7 /* PBXTargetDependency */,
+			);
+			name = MOFSAddressPickerViewTests;
+			productName = MOFSAddressPickerViewTests;
+			productReference = BF1FAEE01C82EC7900BA83F7 /* MOFSAddressPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF1FAEEA1C82EC7900BA83F7 /* MOFSAddressPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1FAEFA1C82EC7900BA83F7 /* Build configuration list for PBXNativeTarget "MOFSAddressPickerViewUITests" */;
+			buildPhases = (
+				BF1FAEE71C82EC7900BA83F7 /* Sources */,
+				BF1FAEE81C82EC7900BA83F7 /* Frameworks */,
+				BF1FAEE91C82EC7900BA83F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF1FAEED1C82EC7900BA83F7 /* PBXTargetDependency */,
+			);
+			name = MOFSAddressPickerViewUITests;
+			productName = MOFSAddressPickerViewUITests;
+			productReference = BF1FAEEB1C82EC7900BA83F7 /* MOFSAddressPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1FAEC41C82EC7900BA83F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = luoyuan;
+				TargetAttributes = {
+					BF1FAECB1C82EC7900BA83F7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BF1FAEDF1C82EC7900BA83F7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BF1FAECB1C82EC7900BA83F7;
+					};
+					BF1FAEEA1C82EC7900BA83F7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BF1FAECB1C82EC7900BA83F7;
+					};
+				};
+			};
+			buildConfigurationList = BF1FAEC71C82EC7900BA83F7 /* Build configuration list for PBXProject "MOFSAddressPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF1FAEC31C82EC7900BA83F7;
+			productRefGroup = BF1FAECD1C82EC7900BA83F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1FAECB1C82EC7900BA83F7 /* MOFSAddressPickerView */,
+				BF1FAEDF1C82EC7900BA83F7 /* MOFSAddressPickerViewTests */,
+				BF1FAEEA1C82EC7900BA83F7 /* MOFSAddressPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1FAECA1C82EC7900BA83F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF08AD441C96E098006DDB8A /* city.xml in Resources */,
+				BF1FAEDA1C82EC7900BA83F7 /* LaunchScreen.storyboard in Resources */,
+				BFAF85E01C95A9240053CF56 /* area.xml in Resources */,
+				BF1FAED71C82EC7900BA83F7 /* Assets.xcassets in Resources */,
+				BF1FAED51C82EC7900BA83F7 /* Main.storyboard in Resources */,
+				BF1FAF051C82EE8D00BA83F7 /* Province&City&District.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1FAEDE1C82EC7900BA83F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1FAEE91C82EC7900BA83F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1FAEC81C82EC7900BA83F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1FAED21C82EC7900BA83F7 /* ViewController.swift in Sources */,
+				BFAF85E41C95B15B0053CF56 /* GDataXMLNode.m in Sources */,
+				BF1FAED01C82EC7900BA83F7 /* AppDelegate.swift in Sources */,
+				BFAF85ED1C95BC130053CF56 /* DistrictModel.swift in Sources */,
+				BF1FAF001C82ECFA00BA83F7 /* SwiftColors.swift in Sources */,
+				BF1FAF071C82EEA200BA83F7 /* Model.swift in Sources */,
+				BFAF85E91C95BBED0053CF56 /* ProvinceModel.swift in Sources */,
+				BF1FAF011C82ECFA00BA83F7 /* SwiftyJSON.swift in Sources */,
+				BF1FAF031C82ED2F00BA83F7 /* MOFSAddressPickerView.swift in Sources */,
+				BFAF85EB1C95BBFA0053CF56 /* CityModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1FAEDC1C82EC7900BA83F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1FAEE51C82EC7900BA83F7 /* MOFSAddressPickerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1FAEE71C82EC7900BA83F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1FAEF01C82EC7900BA83F7 /* MOFSAddressPickerViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF1FAEE21C82EC7900BA83F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1FAECB1C82EC7900BA83F7 /* MOFSAddressPickerView */;
+			targetProxy = BF1FAEE11C82EC7900BA83F7 /* PBXContainerItemProxy */;
+		};
+		BF1FAEED1C82EC7900BA83F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1FAECB1C82EC7900BA83F7 /* MOFSAddressPickerView */;
+			targetProxy = BF1FAEEC1C82EC7900BA83F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF1FAED31C82EC7900BA83F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1FAED41C82EC7900BA83F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF1FAED81C82EC7900BA83F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1FAED91C82EC7900BA83F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF1FAEF21C82EC7900BA83F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF1FAEF31C82EC7900BA83F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF1FAEF51C82EC7900BA83F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = MOFSAddressPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSAddressPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MOFSAddressPickerView/MOFSAddressPickerView/mofs-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		BF1FAEF61C82EC7900BA83F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = MOFSAddressPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSAddressPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MOFSAddressPickerView/MOFSAddressPickerView/mofs-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BF1FAEF81C82EC7900BA83F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MOFSAddressPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSAddressPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOFSAddressPickerView.app/MOFSAddressPickerView";
+			};
+			name = Debug;
+		};
+		BF1FAEF91C82EC7900BA83F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MOFSAddressPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSAddressPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOFSAddressPickerView.app/MOFSAddressPickerView";
+			};
+			name = Release;
+		};
+		BF1FAEFB1C82EC7900BA83F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MOFSAddressPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSAddressPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MOFSAddressPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF1FAEFC1C82EC7900BA83F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MOFSAddressPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSAddressPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MOFSAddressPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1FAEC71C82EC7900BA83F7 /* Build configuration list for PBXProject "MOFSAddressPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1FAEF21C82EC7900BA83F7 /* Debug */,
+				BF1FAEF31C82EC7900BA83F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1FAEF41C82EC7900BA83F7 /* Build configuration list for PBXNativeTarget "MOFSAddressPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1FAEF51C82EC7900BA83F7 /* Debug */,
+				BF1FAEF61C82EC7900BA83F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1FAEF71C82EC7900BA83F7 /* Build configuration list for PBXNativeTarget "MOFSAddressPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1FAEF81C82EC7900BA83F7 /* Debug */,
+				BF1FAEF91C82EC7900BA83F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1FAEFA1C82EC7900BA83F7 /* Build configuration list for PBXNativeTarget "MOFSAddressPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1FAEFB1C82EC7900BA83F7 /* Debug */,
+				BF1FAEFC1C82EC7900BA83F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1FAEC41C82EC7900BA83F7 /* Project object */;
+}
